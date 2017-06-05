@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite" verbose="1">
+
+ <listeners>
+   <listener class-name="asher.report.TestNGCustomReport" />
+ </listeners>
+ 
+ <test verbose="2" name="Make Payment Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="customer.portal.MakePayment"/>
+    </classes>
+  </test> 
+  
+  </suite>

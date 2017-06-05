@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite">
+
+ <listeners>
+   <listener class-name="asher.report.TestNGCustomReport" />
+ </listeners>
+<!-- 
+ <test verbose="2" name="Authentication" group-by-instances="true">
+    <classes>
+      <class name="sales.Authentication"/>
+    </classes>
+ </test>
+ -->
+  <test verbose="2" name="New Order" group-by-instances="true">
+    <classes>
+      <class name="sales.NewOrder"/>
+    </classes>
+ </test>
+ </suite> <!-- Suite -->

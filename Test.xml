@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite" verbose="1">
+
+ <listeners>
+   <listener class-name="asher.report.TestNGCustomReport" />
+ </listeners>
+<!-- 
+ <test verbose="2" name="Forgot Password Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.ForgotPassword"/>
+    </classes>
+  </test>
+  
+ <test verbose="2" name="Login Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.LoginPage"/>
+    </classes>
+  </test> 
+
+<test verbose="2" name="Users Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.User" />
+    </classes>
+  </test>
+ 
+<test verbose="2" name="Customer Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.Customer" />
+    </classes>
+  </test>
+
+<test verbose="2" name="Invoices Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.Invoices" />
+    </classes>
+  </test>
+ 
+  <test verbose="2" name="Payments Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.Payments" />
+    </classes>
+  </test>
+-->
+ <test name="Fabric Testing">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.Fabric" />
+    </classes>
+  </test>
+<!--
+  <test verbose="2" name="Yarn Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.Yarn" />
+    </classes>
+  </test>
+
+  <test verbose="2" name="Branch Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.Branch" />
+    </classes>
+  </test>
+
+  <test verbose="2" name="Job Title Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.JobTitle" />
+    </classes>
+  </test>
+
+  <test verbose="2" name="Ship Via Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.ShipVia" />
+    </classes>
+  </test>
+
+  <test verbose="2" name="Sales Term Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.SalesTerm" />
+    </classes>
+  </test>
+
+ <test verbose="2" name="Reason for Visit Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.ReasonForVisit" />
+    </classes>
+  </test>
+
+ <test verbose="2" name="PO Status Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.POstatus" />
+    </classes>
+  </test> 
+ 
+ <test verbose="2" name="PO Group Mail Testing" group-by-instances="true">
+ <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="admin.portal.poGroupMail" />
+    </classes>
+  </test> 
+-->
+</suite> <!-- Suite -->
